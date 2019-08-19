@@ -1,0 +1,152 @@
+body {
+    color: white;	
+    font-size: 18px;
+    line-height: 1.5;
+    min-height: 100vh;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Caudex', serif;
+  }
+  
+  ul{
+    text-align: left;
+  }
+  
+  details ul{
+    padding-left: 35px;
+  }
+  
+  li{
+    padding-bottom: 10px;
+  }
+  
+  details li:before {    
+    font-family: 'FontAwesome';
+    content: '\f006';
+    margin-right: 9px;
+    font-size: .5em;
+  }
+  
+  summary{
+    padding-bottom: 15px;
+  }
+  
+  .heading {
+    font-family: 'IM Fell English SC', serif;
+    font-size: 2.3em;
+    text-transform: uppercase;
+    z-index: 10;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    position: relative;
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  .scene {
+    min-height: 100vh;
+    height: 100%;
+    background: #16161e;
+    padding: 5rem;
+    text-align: center;
+  }
+  
+  main{
+    margin: 0 auto;
+    z-index: 10;
+    position: relative;
+  }
+  
+  .magic {
+    z-index: 5;
+    position: absolute;
+    top: -50px;
+    right: -10px;
+    width: 9rem;
+    height: 9rem;
+    background: #16161e;
+    border-radius: 50%;
+    display: none;	
+  }
+  
+  .owl{
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-image: url('assets/owl_asleep.png');
+    background-size: contain;
+  }
+  
+  .awake{
+    background-image: url('assets/owl.png');
+  }
+  
+  .wand{
+    cursor: url('assets/wand.png'), auto;
+  }
+  
+  a {
+    color: lightcyan;
+  }
+  
+  .challenge-content {
+    text-align: left;
+  }
+  
+  .challenge-outline {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  
+  hr {
+    width: 75%;
+    margin-bottom: 40px;
+  }
+  
+  .challenge-image {
+      height: auto; 
+      width: auto; 
+      max-width: 600px; 
+      max-height: 600px;
+  }
+  
+  .challenge-bullet:before {    
+    font-family: 'FontAwesome';
+    content: '\f006';
+    margin-right: 9px;
+    margin-left: 40px;
+    font-size: .5em;
+  }
+  
+  strong {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  @media only screen and (min-width: 600px) {
+  
+    main {
+      width: 800px;
+    }
+  
+    .magic {
+      background-color: #fff;
+      background-blend-mode: multiply;
+      background-image: url('assets/background.jpg');
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+  
+    .point {
+      position: absolute;
+      right: 0;
+    }
+  }
+  
